@@ -1,0 +1,102 @@
+body {
+    
+    margin: 0px;
+    font-family: tahoma;
+    color: #282828;
+    background-image: url("./images/y.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  } 
+  ul{
+    /*list-style-type: none;*/
+    width:400;
+    height: 100px;
+    margin: 20px;
+    background-color: transparent;
+    border-color: 2px solid #cfd1d6; ;
+    -webkit-box-shadow: 0px 2px 15px -12px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 0px 2px 15px -12px rgba(0, 0, 0, 0.57);
+    box-shadow: 2px 15px -12px rgba(0, 0, 0, 0.623);
+    text-align: right;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  
+  .cFrame{
+
+    display: flex;
+    flex-direction: column;
+    float:center;
+    width: 500px;
+    height:550px;
+    padding: 0px;
+    margin: 40px;
+    border: 0px solid #23232480;
+    background-color:transparent;
+    -webkit-box-shadow: 0px 2px 15px -12px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 0px 2px 15px -12px rgba(0, 0, 0, 0.57);
+    box-shadow: 2px 15px -12px rgba(0, 0, 0, 0.57);
+    margin: 0 auto;
+    background-image: url("./images/cal.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: local;
+    
+  }
+  
+  table{
+    height: 401px;
+    border-spacing: 1px;
+    
+    
+    
+  }
+  tr,td,th{
+    border: 0.5px solid black;
+    border-color:transparent;
+    border-width: auto;
+    height: 66px;
+    margin: 0px;
+    width: 125px;
+    padding: 0px;
+    background-color: rgba(0, 0, 0, 0.432);
+    color: rgba(250, 250, 250, 0.842);
+    -webkit-transition: background 1s; /* For Safari 3.0 to 6.0 */
+    transition: background 1s; /* For modern browsers */
+  }
+  button{
+    border: 0px;
+    background-color: transparent;
+    width: 121px;
+    height: 64px;
+  color: rgba(250, 250, 250, 0.842);
+  /*padding: 15px 32px;*/
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0;
+  cursor: pointer;
+  border-color: transparent;
+  
+  }
+  #numbers{
+    background-color: rgba(0, 0, 0, 0.37);
+  }
+  #equal{
+    background-color:rgb(150, 128, 95);
+    color: rgba(0, 0, 0, 0.623);
+  }
+ th:hover{
+  background-color: rgba(68, 67, 67, 0.466);
+ }
+ #equal:hover{
+  background-color: rgb(218, 172, 103);
+
+ }
+ cite{
+ color: rgb(143, 84, 12);
+ font-style: inherit;
+ font-size: 25px;
+ }
